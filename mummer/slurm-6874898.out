@@ -1,0 +1,45 @@
+1: PREPARING DATA
+2,3: RUNNING mummer AND CREATING CLUSTERS
+# reading input file "out.ntref" of length 2610533
+# construct suffix tree for sequence of length 2610533
+# (maximum reference length is 2305843009213693948)
+# (maximum query length is 18446744073709551615)
+# process 26105 characters per dot
+#....................................................................................................
+# CONSTRUCTIONTIME /sw/bioinfo/MUMmer/3.23/rackham/mummer out.ntref 1.15
+# reading input file "/home/ritish/genomeanalysis/canu/assembled_canu.contigs.fasta" of length 2617736
+# matching query-file "/home/ritish/genomeanalysis/canu/assembled_canu.contigs.fasta"
+# against subject-file "out.ntref"
+# COMPLETETIME /sw/bioinfo/MUMmer/3.23/rackham/mummer out.ntref 3.40
+# SPACE /sw/bioinfo/MUMmer/3.23/rackham/mummer out.ntref 5.05
+4: FINISHING DATA
+# reading input file "/proj/genomeanalysis2022/Genome_Analysis/2_Christel_2017/reference/OBMB01.fasta" of length 2610532
+# construct suffix tree for sequence of length 2610532
+# (maximum reference length is 2305843009213693948)
+# (maximum query length is 18446744073709551615)
+# process 26105 characters per dot
+#....................................................................................................
+# CONSTRUCTIONTIME mummer /proj/genomeanalysis2022/Genome_Analysis/2_Christel_2017/reference/OBMB01.fasta 1.15
+# reading input file "/home/ritish/genomeanalysis/canu/assembled_canu.contigs.fasta" of length 2617736
+# matching query-file "/home/ritish/genomeanalysis/canu/assembled_canu.contigs.fasta"
+# against subject-file "/proj/genomeanalysis2022/Genome_Analysis/2_Christel_2017/reference/OBMB01.fasta"
+# COMPLETETIME mummer /proj/genomeanalysis2022/Genome_Analysis/2_Christel_2017/reference/OBMB01.fasta 3.32
+# SPACE mummer /proj/genomeanalysis2022/Genome_Analysis/2_Christel_2017/reference/OBMB01.fasta 5.05
+defined(%hash) is deprecated at /sw/bioinfo/MUMmer/3.23/snowy/mummerplot line 884.
+	(Maybe you should just omit the defined()?)
+defined(%hash) is deprecated at /sw/bioinfo/MUMmer/3.23/snowy/mummerplot line 894.
+	(Maybe you should just omit the defined()?)
+defined(%hash) is deprecated at /sw/bioinfo/MUMmer/3.23/snowy/mummerplot line 981.
+	(Maybe you should just omit the defined()?)
+defined(%hash) is deprecated at /sw/bioinfo/MUMmer/3.23/snowy/mummerplot line 991.
+	(Maybe you should just omit the defined()?)
+defined(%hash) is deprecated at /sw/bioinfo/MUMmer/3.23/snowy/mummerplot line 1034.
+	(Maybe you should just omit the defined()?)
+defined(%hash) is deprecated at /sw/bioinfo/MUMmer/3.23/snowy/mummerplot line 1044.
+	(Maybe you should just omit the defined()?)
+gnuplot 4.6 patchlevel 2
+Reading mummer file lf.mums (use mummer -c)
+Writing plot files lferriphilum.fplot, lferriphilum.rplot
+WARNING: Multiple ref sequences overlaid, try -R or -r
+Writing gnuplot script lferriphilum.gp
+Rendering plot lferriphilum.ps
