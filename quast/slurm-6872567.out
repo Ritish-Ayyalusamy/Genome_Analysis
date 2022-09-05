@@ -1,0 +1,107 @@
+/sw/apps/bioinfo/quast/5.0.2/snowy/bin/quast.py /home/ritish/genomeanalysis/canu/assembled_canu.contigs.fasta -R /proj/genomeanalysis2022/Genome_Analysis/2_Christel_2017/reference/OBMB01.fasta -t 4
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.71.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
+  Python version: 3.7.2
+  CPUs number: 16
+
+Started: 2022-08-27 16:03:29
+
+Logging to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/quast.log
+
+CWD: /domus/h1/ritish/genomeanalysis/quast
+Main parameters: 
+  MODE: default, threads: 4, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /proj/genomeanalysis2022/Genome_Analysis/2_Christel_2017/reference/OBMB01.fasta ==> OBMB01
+
+Contigs:
+  Pre-processing...
+  /home/ritish/genomeanalysis/canu/assembled_canu.contigs.fasta ==> assembled_canu.contigs
+
+2022-08-27 16:03:33
+Running Basic statistics processor...
+  Reference genome:
+    OBMB01.fasta, length = 2610531, num fragments = 2, GC % = 54.14
+  Contig files: 
+    assembled_canu.contigs
+  Calculating N50 and L50...
+    assembled_canu.contigs, N50 = 2566729, L50 = 1, Total length = 2617735, GC % = 54.10, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/basic_stats/GC_content_plot.pdf
+  Drawing assembled_canu.contigs GC content plot...
+    saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/basic_stats/assembled_canu.contigs_GC_content_plot.pdf
+Done.
+
+2022-08-27 16:03:35
+Running Contig analyzer...
+  assembled_canu.contigs
+  Logging to files /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/contigs_reports/contigs_report_assembled_canu-contigs.stdout and contigs_report_assembled_canu-contigs.stderr...
+  Aligning contigs to the reference
+  Analysis is finished.
+  Creating total report...
+    saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2022-08-27 16:03:38
+Running NA-NGA calculation...
+  assembled_canu.contigs, Largest alignment = 1886094, NA50 = 1886094, NGA50 = 1886094, LA50 = 1, LGA50 = 1
+  Drawing cumulative plot...
+    saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/aligned_stats/NGAx_plot.pdf
+Done.
+
+2022-08-27 16:03:39
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  assembled_canu.contigs
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2022-08-27 16:03:40
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2022-08-27 16:03:42
+RESULTS:
+  Text versions of total report are saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/report.html
+  PDF version (tables and plots) is saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/report.pdf
+  Icarus (contig browser) is saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/icarus.html
+  Log is saved to /domus/h1/ritish/genomeanalysis/quast/quast_results/results_2022_08_27_16_03_29/quast.log
+
+Finished: 2022-08-27 16:03:42
+Elapsed time: 0:00:12.566357
+NOTICEs: 3; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
