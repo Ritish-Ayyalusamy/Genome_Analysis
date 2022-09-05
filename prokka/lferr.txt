@@ -1,0 +1,9 @@
+organism: Leptospirillum ferriphilum DSM_14647 
+contigs: 2
+bases: 2617735
+CDS: 2592
+CRISPR: 1
+misc_RNA: 6
+rRNA: 6
+tRNA: 49
+tmRNA: 1
