@@ -1,0 +1,11 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	ERR2036629_2	/domus/h1/ritish/genomeanalysis/fastqc/ERR2036629_2_fastqc.zip
+FastQC	all_sections	ERR2036629_1	/domus/h1/ritish/genomeanalysis/fastqc/ERR2036629_1_fastqc.zip
+FastQC	all_sections	ERR2036630_2	/domus/h1/ritish/genomeanalysis/fastqc/ERR2036630_2_fastqc.zip
+FastQC	all_sections	ERR2036630_1	/domus/h1/ritish/genomeanalysis/fastqc/ERR2036630_1_fastqc.zip
+FastQC	all_sections	ERR2036631_1	/domus/h1/ritish/genomeanalysis/fastqc/ERR2036631_1_fastqc.zip
+FastQC	all_sections	ERR2036631_2	/domus/h1/ritish/genomeanalysis/fastqc/ERR2036631_2_fastqc.zip
+FastQC	all_sections	ERR2036632_2	/domus/h1/ritish/genomeanalysis/fastqc/ERR2036632_2_fastqc.zip
+FastQC	all_sections	ERR2036632_1	/domus/h1/ritish/genomeanalysis/fastqc/ERR2036632_1_fastqc.zip
+FastQC	all_sections	ERR2036633_1	/domus/h1/ritish/genomeanalysis/fastqc/ERR2036633_1_fastqc.zip
+FastQC	all_sections	ERR2036633_2	/domus/h1/ritish/genomeanalysis/fastqc/ERR2036633_2_fastqc.zip
